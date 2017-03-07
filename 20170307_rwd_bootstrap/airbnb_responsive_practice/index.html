@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<title>Airbnb</title>
+
+	<!-- Open Graph data -->
+	<meta property="og:title" content="Let's Practice Bootstrap Grid System">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="http://justin.alphastudio.io">
+	<meta property="og:image" content="http://logok.org/wp-content/uploads/2014/07/Airbnb-new-logo-2014.png">
+	<meta property="og:description" content="Keep calm and get it done. RWD is much easier than you think!">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="airbnb.css">
+	
+	
+</head>
+<body>
+
+	<!-- header with nav, tagline and search area -->
+	<header>
+		<nav>
+			<img id="logo" src="http://logok.org/wp-content/uploads/2014/07/Airbnb-new-logo-2014.png">
+			<ul>
+				<li>Become a Host</li>
+				<li>Message</li>
+				<li>Help</li>
+				<li>Justin</li>
+			</ul>
+		</nav>
+
+		<div id="tagline">
+			<h1>WELCOME HOME</h1>
+			<p>Rent unique places to stay from local hosts in 190+ countries.</p>
+			<button>How It Works</button>	
+		</div>
+
+		<div class="search-area">
+			<div class="search-bar"></div>
+		</div>
+	</header>
+
+	<!-- section for cities -->
+	<section class="asia-cities">
+		<h2>Just for the weekend</h2>
+		<p>Discover new, inspiring places close to home.</p>
+		<div class="seoul city"><p>Seoul</p></div>
+		<div class="osaka city"><p>Osaka</p></div>
+		<div class="kyoto city"><p>Kyoto</p></div>
+		<div>
+			<button class="dst">See All Destinations</button>
+		</div>
+	</section>
+
+	<!-- Bootstrap section for cities -->
+	<section class="bootstrap-cities"> 
+		<h2>Just for the weekend</h2>
+		<p>Discover new, inspiring places close to home.</p>
+		<div class="">
+			<div class="b-city-border">
+				<!-- <div class="b-city seoul"><p>Seoul</p></div> -->
+			</div>
+			<div class="b-city-border">
+				<!-- <div class="b-city osaka"><p>Osaka</p></div> -->
+			</div>
+			<div class="b-city-border">
+				<!-- <div class="b-city kyoto"><p>Kyoto</p></div> -->
+			</div>
+		</div>
+		<div>
+			<button class="dst">See All Destinations</button>
+		</div>
+	</section>
+
+</body>
+</html>
